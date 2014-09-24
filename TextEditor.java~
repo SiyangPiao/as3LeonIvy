@@ -42,7 +42,7 @@ public class TextEditor {
 		int width = Toolkit.getDefaultToolkit().getScreenSize().width;
 		int height = Toolkit.getDefaultToolkit().getScreenSize().height;
 		editText.setSize(550, 760);
-		editText.setLocation(width / 2-100, height / 2 -300);
+		editText.setLocation(width / 2-200, height / 2 -350);
 		editText.setVisible(true);
 		
 
@@ -85,8 +85,8 @@ public class TextEditor {
 			JLabel locationLabel = new JLabel("Select a location location: ");
 			JLabel timeLabel=new JLabel("Enter the length of time: ");
 			JLabel topLabel = new JLabel("Top: ");
-			JLabel middleLabel = new JLabel("Middle ");
-			JLabel bottomLabel = new JLabel("Bottom ");
+			JLabel middleLabel = new JLabel("Middle: ");
+			JLabel bottomLabel = new JLabel("Bottom: ");
 //			JLabel optionLabel;
 			JButton colourButton = new JButton("Choose Colour");
 			save = new JButton("Save");

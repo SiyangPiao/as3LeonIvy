@@ -225,7 +225,7 @@ public class Download extends JFrame implements ActionListener
 					
 					
 				});
-                cancel.setVisible(false);
+                cancel.setVisible(true);
                 
 			} else {
 				//Show user this message when user want to download not open source files
@@ -234,7 +234,7 @@ public class Download extends JFrame implements ActionListener
 			}
                
 		} else {
-			txt.setText("  ");
+			txt.setText("");
 			JOptionPane.showMessageDialog(this, "Canceled");
 
 		}
